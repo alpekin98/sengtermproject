@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 
 $serverName = 'localhost';
 $userName = 'root';
-$passCode = '12345678';
+$passCode = '1234qweR...';
 $dbName = 'sengproje';
 $conn = new PDO("mysql:host=$serverName;dbname=$dbName", $userName, $passCode);
 
