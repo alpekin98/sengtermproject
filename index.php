@@ -11,7 +11,7 @@ include 'header.php';
                             <section class="span8 articles-list">
                                 <h3>All Ideas</h3>
                                 <?php
-                                    $limit = 5;
+                                    $limit = 7;
                                     $query = "SELECT * FROM ideas";
                                     $s = $conn->prepare($query);
                                     $s->execute();
@@ -45,9 +45,6 @@ include 'header.php';
                                         </div>
                                         <div class="col-md-1 forum-info"> <span class="views-number"> <?php echo $res['idea_view'] ?> </span>
                                             <div> <small>Views</small></div>
-                                        </div>
-                                        <div class="col-md-1 forum-info"> <span class="views-number"> <?php echo $res['idea_like'] - $res['idea_dislike'] ?> </span>
-                                            <div> <small>Score</small></div>
                                         </div>
                                     </div>
                                 </div>

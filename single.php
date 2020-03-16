@@ -54,9 +54,6 @@
                                                 </div>
                                                 <h6 class="time-ago">Asked on, <?php echo $q_date; ?></h6>
                                             </div>
-                                                <button type="button" class="btn btn-success btn-circle btn-lg" id="btnLike"><i class="fa fa-check"></i></button>
-                                                <button type="button" class="btn btn-danger btn-circle btn-lg" id="btnDislike"><i class="fa fa-times"></i></button>
-                                                <button type="button" class="btn btn-dark btn-circle btn-lg" id="score"></i><span id="questionScore" class="totalScore" data-value="<?php echo $q_score; ?>"><?php echo $q_score; ?></span></button>
                                         </div>
                                         <br>
                                         <hr>  
