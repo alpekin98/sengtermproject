@@ -43,7 +43,7 @@ if (isset($_SESSION['user_Username'])) {
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-inverse navbar-custom" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="/SENGPROJECT/index.php">My Startup Ideas</a>
+        <a class="navbar-brand" href="/index.php">My Startup Ideas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,21 +51,21 @@ if (isset($_SESSION['user_Username'])) {
             <ul class="navbar-nav ml-auto">
                 <?php if ($sUsername == null): ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/SENGPROJECT/register.php" role="button" aria-expanded="false" aria-controls="collapseExample">Sign Up</a>
+                        <a class="nav-link" href="/register.php" role="button" aria-expanded="false" aria-controls="collapseExample">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/SENGPROJECT/login.php" role="button" aria-expanded="false" aria-controls="collapseExample">Login</a>
+                        <a class="nav-link" href="/login.php" role="button" aria-expanded="false" aria-controls="collapseExample">Login</a>
                     </li>
                 <?php endif;?>
                 <?php if ($sUsername !== null): ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/SENGPROJECT/profile.php">Profile</a>
+                        <a class="nav-link" href="/profile.php">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/SENGPROJECT/addidea.php">Add Idea</a>
+                        <a class="nav-link" href="/addidea.php">Add Idea</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/SENGPROJECT/logout.php">Logout</a>
+                        <a class="nav-link" href="/logout.php">Logout</a>
                     </li>
                 <?php endif;?>
             </ul>
