@@ -20,7 +20,7 @@ if (isset($_SESSION['user_Username'])) {
 <!doctype html>
 <html lang="en-US">
 <head>
-    <title>AI Customer Support</title>
+    <title>My Startup Ideas</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
